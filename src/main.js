@@ -5,6 +5,8 @@ import store from './store'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import axios from 'axios'
+// 导入全局样式表
+import '@/assets/global.less'
 Vue.config.productionTip = false
 // 设置全局基地址
 axios.defaults.baseURL = 'http://big-event-vue-api-t.itheima.net'
