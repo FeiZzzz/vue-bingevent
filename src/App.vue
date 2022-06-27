@@ -4,7 +4,10 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  // created(){
+  //   this.$router.push('/login')
+  // }
 }
 </script>
 
